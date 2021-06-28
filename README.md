@@ -1,5 +1,6 @@
 # Markdown-It Plugin Template
 
+[![ci-badge]][ci-link]
 [![npm-badge]][npm-link]
 
 A template for creating a [markdown-it](https://github.com/markdown-it/markdown-it) plugin.
@@ -29,7 +30,7 @@ Modify the test in `tests/fixtures.spec.ts`, to load your plugin, then the "fixt
 On commits/PRs to the `master` branch, the GH actions will trigger, running the linting, unit tests, and build tests.
 Additionally setup and uncomment the [codecov](https://about.codecov.io/) action in `.github/workflows/ci.yml`, to provide automated CI coverage.
 
-Finally you can build (`npm run build`) and publish your package (`npm publish`).
+Finally, you can update the version of your package: `npm version patch -m "🚀 RELEASE: v%s"`, build; `npm run build`, and publish; `npm publish`.
 
 ## Design choices
 
@@ -62,6 +63,8 @@ See for example:
 - is [@rollup/plugin-babel](https://www.npmjs.com/package/@rollup/plugin-babel) necessary?
 - Use [rollup-plugin-dts](https://www.npmjs.com/package/rollup-plugin-dts), to rollup all types in one file (see also: [Rollup your types](https://medium.com/@martin_hotell/typescript-library-tips-rollup-your-types-995153cc81c7))?
 
+[ci-badge]: https://github.com/executablebooks/markdown-it-plugin-template/workflows/CI/badge.svg
+[ci-link]: https://github.com/executablebooks/markdown-it--plugin-template/actions
 [npm-badge]: https://img.shields.io/npm/v/markdown-it-plugin-template.svg
 [npm-link]: https://www.npmjs.com/package/markdown-it-plugin-template
 
