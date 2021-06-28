@@ -36,6 +36,37 @@ Additionally setup and uncomment the [codecov](https://about.codecov.io/) action
 
 Finally, you can update the version of your package: `npm version patch -m "🚀 RELEASE: v%s"`, build; `npm run build`, and publish; `npm publish`.
 
+## Usage
+
+As a Node module:
+
+```javascript
+import MarkdownIt from "markdown-it"
+import example_plugin from "markdown-it-plugin-template"
+
+const text = MarkdownIt().use(example_plugin).render("*a*")
+```
+
+In the browser:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example Page</title>
+        <script src="https://cdn.jsdelivr.net/npm/markdown-it@12/dist/markdown-it.min.js"></script>
+        <script src="https://unpkg.com/markdown-it-plugin-template"></script>
+    </head>
+    <body>
+        <div id="demo"></div>
+        <script>
+            const text = window.markdownit().use(window.markdownitExample).render("*a*");
+            document.getElementById("demo").innerHTML = text
+        </script>
+    </body>
+</html>
+```
+
 ## Design choices
 
 ### Why is markdown-it only in devDependencies?
