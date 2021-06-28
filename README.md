@@ -11,14 +11,18 @@ A template for creating a [markdown-it](https://github.com/markdown-it/markdown-
 - Code Formatting ([prettier])
 - Code Linting ([eslint])
 - Testing and coverage ([jest])
-- Packaging ([rollup])
 - Continuous Integration (GitHub Actions)
-- Upload to [NPM] and [unpkg CDN](https://unpkg.com/)
+- Bundled as both UMD and ESM ([rollup])
+- Upload as [NPM] package and [unpkg CDN](https://unpkg.com/)
 
 ## Getting Started
 
 1. Create a GitHub repository [from the template](https://docs.github.com/en/github-ae@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template).
-2. Replace package details in the `package.json`, `LICENSE` and `README.md`.
+2. Replace package details in the following files:
+   - `package.json`
+   - `LICENSE`
+   - `README.md`
+   - `rollup.config.js`
 3. Install the `node_module` dependencies: `npm install` or `npm ci` (see [Install a project with a clean slate](https://docs.npmjs.com/cli/v7/commands/npm-ci)).
 4. Run code formatting; `npm run format`, and linting: `npm run lint:fix`.
 5. Run the unit tests; `npm test`, or with coverage; `npm test -- --coverage`.

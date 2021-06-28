@@ -2,12 +2,12 @@ test 1
 .
 content
 .
-<p class="example">content</p>
+<p style="color:blue;">content</p>
 .
 
 test 2
 .
 *other content*
 .
-<p class="example"><em>other content</em></p>
+<p style="color:blue;"><em>other content</em></p>
 .

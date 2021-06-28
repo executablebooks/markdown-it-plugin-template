@@ -10,7 +10,7 @@
     "markdown-it",
     "markdown-it-plugin"
   ],
-  "main": "dist/cjs/index.js",
+  "main": "dist/umd/index.js",
   "module": "dist/mjs/index.js",
   "types": "dist/mjs/index.d.ts",
   "files": [
@@ -18,8 +18,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/mjs/index.js",
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/umd/index.js",
+      "import": "./dist/mjs/index.js"
     }
   },
   "scripts": {

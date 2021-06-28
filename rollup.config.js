@@ -18,8 +18,8 @@ export default {
   output: [
     {
       file: packageJson.main,
-      format: "cjs", // commonJS
-      exports: "auto",
+      format: "umd", // commonJS
+      name: "markdownitExample", // window.name if script loaded directly in browser
       sourcemap: true
     },
     {
