@@ -49,7 +49,7 @@ There are a number of JavaScript unit testing frameworks (see [this comparison](
 ### Why Rollup?
 
 The three main bundlers are; Webpack, Rollup and Parcel, with the functionality gap between all of these bundlers narrowing over the years.
-Essentially, Rollup provides a middle ground between features and complexity, and is good for bundling libraries.
+Essentially, Rollup provides a middle ground between features and complexity, and is good for bundling libraries (it is what `markdown-it` itself [uses](https://github.com/markdown-it/markdown-it/blob/064d602c6890715277978af810a903ab014efc73/support/rollup.config.js)).
 
 See for example:
 
