@@ -92,11 +92,6 @@ See for example:
 - <https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd>
 - <https://betterprogramming.pub/the-battle-of-bundlers-6333a4e3eda9>
 
-## TODO
-
-- which javascript versions (main/module in tsconfig.json)?
-- is [@rollup/plugin-babel](https://www.npmjs.com/package/@rollup/plugin-babel) necessary?
-- Use [rollup-plugin-dts](https://www.npmjs.com/package/rollup-plugin-dts), to rollup all types in one file (see also: [Rollup your types](https://medium.com/@martin_hotell/typescript-library-tips-rollup-your-types-995153cc81c7))?
 
 [ci-badge]: https://github.com/executablebooks/markdown-it-plugin-template/workflows/CI/badge.svg
 [ci-link]: https://github.com/executablebooks/markdown-it--plugin-template/actions
