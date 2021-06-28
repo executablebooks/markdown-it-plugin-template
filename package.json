@@ -23,7 +23,8 @@
     "test": "jest",
     "test:cov": "jest --coverage",
     "prebuild": "rm -rf dist",
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "npm run build"
   },
   "jest": {
     "preset": "ts-jest"
