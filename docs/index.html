@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12/dist/markdown-it.min.js"></script>
+    <script src="https://unpkg.com/markdown-it-plugin-template"></script>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        const text = window.markdownit().use(window.markdownitExample).render("*a*");
+        document.getElementById("demo").innerHTML = text
+    </script>
+</body>
+</html>
