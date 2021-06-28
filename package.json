@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-plugin-template",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A template for creating a markdown-it plugin",
   "author": "Chris Sewell",
   "homepage": "https://github.com/executablebooks/markdown-it-plugin-template",
