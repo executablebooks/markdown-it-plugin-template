@@ -5,6 +5,8 @@
 
 A template for creating a [markdown-it](https://github.com/markdown-it/markdown-it) plugin.
 
+See <https://executablebooks.github.io/markdown-it-plugin-template/> for a demonstration!
+
 ## Features
 
 - TypeScript
@@ -46,9 +48,9 @@ As a Node module:
 
 ```javascript
 import MarkdownIt from "markdown-it"
-import example_plugin from "markdown-it-plugin-template"
+import examplePlugin from "markdown-it-plugin-template"
 
-const text = MarkdownIt().use(example_plugin).render("*a*")
+const text = MarkdownIt().use(examplePlugin).render("*a*")
 ```
 
 In the browser:
