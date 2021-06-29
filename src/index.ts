@@ -1,4 +1,4 @@
-import type MarkdownIt from "markdown-it"
+import type MarkdownIt from "markdown-it/lib"
 import type StateCore from "markdown-it/lib/rules_core/state_core"
 
 /**
