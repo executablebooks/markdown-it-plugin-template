@@ -11,9 +11,10 @@ A template for creating a [markdown-it](https://github.com/markdown-it/markdown-
 - Code Formatting ([prettier])
 - Code Linting ([eslint])
 - Testing and coverage ([jest])
-- Continuous Integration (GitHub Actions)
+- Continuous Integration ([GitHub Actions])
 - Bundled as both UMD and ESM ([rollup])
 - Upload as [NPM] package and [unpkg CDN](https://unpkg.com/)
+- Simple demonstration website ([GitHub Pages])
 
 ## Getting Started
 
@@ -98,6 +99,8 @@ See for example:
 [npm-badge]: https://img.shields.io/npm/v/markdown-it-plugin-template.svg
 [npm-link]: https://www.npmjs.com/package/markdown-it-plugin-template
 
+[GitHub Actions]: https://docs.github.com/en/actions
+[GitHub Pages]: https://docs.github.com/en/pages
 [prettier]: https://prettier.io/
 [eslint]: https://eslint.org/
 [Jest]: https://facebook.github.io/jest/
